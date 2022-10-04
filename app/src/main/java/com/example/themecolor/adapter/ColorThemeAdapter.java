@@ -15,7 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.themecolor.ColorThemeItem;
+import com.example.themecolor.item.ColorThemeItem;
 import com.example.themecolor.MainActivity;
 import com.example.themecolor.PreferenceDelegator.PreferenceDelegator;
 import com.example.themecolor.R;
