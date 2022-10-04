@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         initView();
         initColor();
+        Conf.onCheckTheme(this);
     }
 
     private void initView() {
