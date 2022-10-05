@@ -22,10 +22,6 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView recyclerColorTheme;
     List<ColorThemeItem> colorThemeItemList;
     ColorThemeAdapter colorThemeAdapter;
-    public static boolean is_setting_change = false;
-    public static boolean is_lang_change = false;
-    public static boolean is_main_recreate = false;
-    public static boolean is_home_clickable = false;
     PreferenceDelegator preferenceDelegator;
 
     @Override

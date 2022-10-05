@@ -14,13 +14,8 @@ public class ThemeApplication extends Application {
     PreferenceDelegator preferenceDelegator;
 
     @Override
-    protected void attachBaseContext(Context base) {
-        super.attachBaseContext(base);
-    }
-
-    @Override
-    public void onConfigurationChanged(@NonNull Configuration newConfig) {
-        super.onConfigurationChanged(newConfig);
+    public void onCreate() {
+        super.onCreate();
         preferenceDelegator = PreferenceDelegator.getInstance(this);
         if(preferenceDelegator.contains(Conf.SET_THEME)){
             setTheme(preferenceDelegator.getInt(Conf.SET_THEME));
