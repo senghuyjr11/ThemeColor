@@ -11,6 +11,7 @@ import com.google.gson.Gson;
 public class Conf {
     public static int appColor;
     public static String SET_THEME = "SET_THEME";
+    public static String SET_THEME_OBJ = "SET_THEME_OBJ";
 
     public static class SuperActivity{
         static String KEY_THEME     = "SET_THEME";
